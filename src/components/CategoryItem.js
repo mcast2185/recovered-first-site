@@ -19,6 +19,7 @@ const Title = styled.h1`
   margin-bottom: 10px;
   background-color: rgba(160, 160, 160, 0.5);
   border-radius: 1px;
+  cursor: default;
 `
 const Info = styled.div`
   position: absolute;

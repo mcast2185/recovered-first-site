@@ -39,10 +39,12 @@ const Center = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: default;
 `
 const Logo = styled.h1`
   font-weight: 900;
   font-size: 32px
+  cursor: default;
 `
 
 const Right = styled.div`
