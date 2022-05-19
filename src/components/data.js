@@ -1,12 +1,11 @@
-import shop1 from "../static/assets/shop1.png"
-import shop2 from "../static/assets/shop2.png"
-import shop3 from "../static/assets/shop3.png"
-import style1 from "../static/assets/style1.jpg"
-import style2 from "../static/assets/style2.jpg"
-import style3 from "../static/assets/style3.jpg"
-import prod1 from "../static/assets/prod1.png"
-import prod2 from "../static/assets/prod2.png"
-import prod3 from "../static/assets/prod3.png"
+import shop1 from "../static/assets/shop1.png";
+import shop2 from "../static/assets/shop2.png";
+import shop3 from "../static/assets/shop3.png";
+import style1 from "../static/assets/style1.jpg";
+import style2 from "../static/assets/style2.jpg";
+import style3 from "../static/assets/style3.jpg";
+import prod1 from "../static/assets/prod1.png";
+import prod3 from "../static/assets/prod3.png";
 
 export const sliderItems = [
   {

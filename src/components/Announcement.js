@@ -16,7 +16,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <Container>
-      The jig is up
+      Great Deal! Free Shipping on Orders over $50
     </Container>
   )
 }

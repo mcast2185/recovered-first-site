@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { mobile } from './responsive';
+
+
 const Container = styled.div`
   flex: 1;
   margin: 3px;
@@ -11,7 +14,7 @@ const Image = styled.img`
   width: 100%;
   height: 110%;
   object-fit: cover;
-  
+  ${mobile({height: "100%;", width: "100%;"})}
 `
 const Title = styled.h1`
   font-weight: 900;
@@ -20,6 +23,7 @@ const Title = styled.h1`
   background-color: rgba(160, 160, 160, 0.5);
   border-radius: 1px;
   cursor: default;
+  ${mobile({fontSize: "20px;"})}
 `
 const Info = styled.div`
   position: absolute;

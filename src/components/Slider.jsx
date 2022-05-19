@@ -3,11 +3,7 @@ import styled from 'styled-components';
 import {ArrowLeftOutlined, ArrowRightOutlined} from "@material-ui/icons";
 
 import { sliderItems } from './data';
-
-
-
-
-
+import {mobile} from "./responsive"
 
 const Container = styled.div`
   width: 100%;
@@ -15,7 +11,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
-  
+  ${mobile({backgroundColor: "coral;", height: "80vh;"})}
 `
 
 const Arrow = styled.div`
@@ -35,6 +31,7 @@ const Arrow = styled.div`
   cursor: pointer;
   opacity: .6;
   z-index: 2;
+  ${mobile({display: "none;"})}
 `
 
 const Wrapper = styled.div`
@@ -49,11 +46,13 @@ const Slide = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #${props => props.bg}
+  background-color: #${props => props.bg};
+  ${mobile({backgroundColor: "coral;"})}
 `
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
+  ${mobile({display: "none;"})}
 `
 const Image = styled.img`
 height: 80%;
@@ -62,6 +61,7 @@ height: 80%;
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  ${mobile({color: "#fff;"})}
 `
 
 const Title = styled.h1`
@@ -81,6 +81,7 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  ${mobile({color: "#fff;", border: ".5px solid #fff"})}
 `
 
 const Slider = () => {
