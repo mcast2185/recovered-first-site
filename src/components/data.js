@@ -9,11 +9,11 @@ import prod3 from "../static/assets/prod3.png";
 
 export const sliderItems = [
   {
-    id: 1,
-    img: shop2,
-    title: "Summer Vibes",
+    id: 3,
+    img: shop3,
+    title: "Winter Chills",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "f5fafd"
+    bg: "fbf0f4"
   },
   {
     id: 2,
@@ -23,11 +23,11 @@ export const sliderItems = [
     bg: "fcf1ed"
   },
   {
-    id: 3,
-    img: shop3,
-    title: "Winter Chills",
+    id: 1,
+    img: shop2,
+    title: "Summer Vibes",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "fbf0f4"
+    bg: "f5fafd"
   },
 ]
 
