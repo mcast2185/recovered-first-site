@@ -1,20 +1,20 @@
 import shop1 from "../static/assets/shop1.png";
 import shop2 from "../static/assets/shop2.png";
-import shop3 from "../static/assets/shop3.png";
-import style1 from "../static/assets/style1.jpg";
+// import shop3 from "../static/assets/shop3.png";
+// import style1 from "../static/assets/style1.jpg";
 import style2 from "../static/assets/style2.jpg";
 import style3 from "../static/assets/style3.jpg";
 import prod1 from "../static/assets/prod1.png";
-import prod3 from "../static/assets/prod3.png";
+// import prod3 from "../static/assets/prod3.png";
 
 export const sliderItems = [
-  {
-    id: 3,
-    img: shop3,
-    title: "Winter Chills",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "fbf0f4"
-  },
+  // {
+  //   id: 3,
+  //   img: shop3,
+  //   title: "Winter Chills",
+  //   desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+  //   bg: "fbf0f4"
+  // },
   {
     id: 2,
     img: shop1,
@@ -32,11 +32,11 @@ export const sliderItems = [
 ]
 
 export const categories = [
-  {
-    id: 1,
-    img: style1,
-    title: "Shirt Styles"
-  },
+  // {
+  //   id: 1,
+  //   img: style1,
+  //   title: "Shirt Styles"
+  // },
   {
     id: 2,
     img: style2,
@@ -78,8 +78,8 @@ export const popularProducts = [
     id:7,
     img: prod1,
   },
-  {
-    id:8,
-    img: prod3,
-  },
+  // {
+  //   id:8,
+  //   img: prod3,
+  // },
 ]
